@@ -1,9 +1,12 @@
-export React from 'react';
+import React from 'react';
+import Search from "./components/Search";
 
-export default () => {
+const App = () => {
   return (
     <div>
-      App
+      <Search />
     </div>
   );
 };
+
+export default App
