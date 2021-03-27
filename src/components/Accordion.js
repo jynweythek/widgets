@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const onTitleClick = (index) => {
+  const onTitleClick = index => {
     setActiveIndex(index);
   };
 

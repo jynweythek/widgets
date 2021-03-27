@@ -65,7 +65,7 @@ const Search = () => {
           />
         </div>
       </div>
-      <div className="ui items divided">
+      <div className="ui list celled">
         {renderedResults}
       </div>
     </div>
